@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #161414;
+    font-family: 'Bebas Neue';
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+    position: relative;
+    overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-ctn {
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    align-items: center;
+    display: flex;
+    transform: translateX(85%);
+    transition: transform 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-ctn.open {
+    transform: translateX(0px);
+}
+
+.menu-icon {
+    width: 60px;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 481px) {
+    .menu-ctn {
+        justify-content: end;
+        transform: none;
+        transition: none;
+        padding: 1.5% 3%;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .menu-ctn {
+        padding: 0 2.5%;
+    }
 }
