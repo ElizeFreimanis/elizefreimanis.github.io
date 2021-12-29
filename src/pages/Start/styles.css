@@ -1,0 +1,36 @@
+.name h1 {
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    color: white;
+    line-height: 0.95;
+}
+
+.name h2 {
+    font-family: 'Bebas Neue';
+    font-size: 4.5rem;
+    color: #161414;
+    background-color: white;
+    padding: 6px 8px 0 8px;
+    line-height: 0.95;
+}
+
+.name p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+@media (min-width: 481px) {
+    .name h1 {
+        font-size: 7rem;
+    }
+
+    .name h2 {
+        font-size: 6.5rem;
+    }
+
+    .name p {
+        font-size: 1.6rem;
+    }
+}
