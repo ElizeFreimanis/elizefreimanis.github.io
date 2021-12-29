@@ -17,6 +17,7 @@ function App() {
 
     return (
         <div>
+            <h2>Hej</h2>
             <div className={`menu-ctn${dropDownIsOpen ? ' open' : ''}`}>
                 <img
                     alt=''
