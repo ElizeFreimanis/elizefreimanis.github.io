@@ -1,0 +1,6 @@
+.p-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 10px;
+}

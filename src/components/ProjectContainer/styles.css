@@ -1,0 +1,20 @@
+.projectContainer {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10%;
+    width: 150px;
+}
+
+.projectContainer:hover {
+    cursor: pointer;
+}
+
+.projectImage {
+    height: 200px;
+    width: 100%;
+}
+
+.project-title {
+    margin-top: 10px;
+    color: white;
+}

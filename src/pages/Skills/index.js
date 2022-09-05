@@ -1,5 +1,5 @@
-import './styles.css';
-import Container from '../../components/Container';
+import "./styles.css";
+import Container from "../../components/Container";
 
 export default function Skills() {
     return (
@@ -13,6 +13,8 @@ export default function Skills() {
                 <img alt='devtools' src='images/chrome.svg' />
                 <img alt='git' src='images/git.svg' />
                 <img alt='react' src='images/react.svg' />
+                <img alt='react' src='images/typescript.svg' />
+                <img alt='react' src='images/redux.svg' />
             </div>
         </Container>
     );

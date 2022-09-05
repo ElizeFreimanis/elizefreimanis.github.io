@@ -10,12 +10,13 @@
 .about p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
-    font-size: 1.2rem;
-    padding-top: 8%;
+    font-size: 1rem;
+    padding-top: 3%;
 }
 
 .selfie {
     width: 70%;
+    border-radius: 10px;
 }
 
 @media (min-width: 481px) {
